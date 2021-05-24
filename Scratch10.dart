@@ -43,4 +43,20 @@ void main() {
       print('$k is Max!');
     }
   }
+  //Switch Case in Dart
+  //find enterd char is vowel or consonents
+  print("Enter the char value:");
+  var char = stdin.readLineSync();
+  switch (char) {
+    case 'a':
+    case 'e':
+    case 'i':
+    case 'o':
+    case 'u':
+      print("$char is Vowel");
+      break;
+    default:
+      print("Consonent");
+      break;
+  }
 }
